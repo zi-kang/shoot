@@ -1,0 +1,49 @@
+.content .right .li-box li {
+  padding: 3px 0 3px 12px;
+  overflow: hidden;
+  position: relative;
+}
+.content .right .li-box li a {
+  display: block;
+  width: 133px;
+  height: 100px;
+  float: left;
+  text-align: center;
+  padding: 16px 0 0 11px;
+}
+.content .right .li-box li a .Ig2 {
+  width: 121px;
+  height: 88px;
+  overflow: hidden;
+  padding: 5px;
+  background: #FFF;
+  border: #999 solid 1px;
+}
+.content .right .li-box li img {
+  float: left;
+}
+.content .right .li-box li .txt-box {
+  width: 60%;
+  padding: 20px 0 0 18px;
+  float: left;
+}
+.content .right .li-box li .txt-box h2 {
+  font-size: 18px;
+  font-weight: normal;
+  color: #535353;
+}
+.content .right .li-box li .txt-box p {
+  font-size: 12px;
+  line-height: 20px;
+  color: #666666;
+}
+.content .right .li-box li .txt-box p.two {
+  cursor: pointer;
+  color: #ff0000;
+}
+.content .right .li-box li .txt-b {
+  font-size: 12px;
+  line-height: 20px;
+  color: #F79999;
+  display: none;
+}

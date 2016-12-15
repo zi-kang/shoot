@@ -1,0 +1,36 @@
+.content .right .txt h5 {
+  font-size: 16px;
+  line-height: 40px;
+  color: #666666;
+  border-bottom: 1px dashed #ddd;
+}
+.content .right .txt h5 p {
+  font-size: 13px;
+  line-height: 27px;
+  color: #999999;
+}
+.content .right .txt .p {
+  padding: 10px 0;
+  color: #666666;
+  font-family: "宋体";
+  font-size: 14px;
+  line-height: 25px;
+}
+.content .right .img-box {
+  padding: 16px 0;
+}
+.content .right .img-box li {
+  border: 5px solid #fff;
+  box-shadow: 0 0 10px red;
+  width: 680px;
+  height: 417px;
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+.content .right .img-box img {
+  margin-bottom: 20px;
+}
+.content .right .img-box img:hover {
+  box-shadow: 0 0 10px red;
+  transform: scale(1.5, 1.5);
+}

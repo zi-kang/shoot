@@ -1,0 +1,346 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font: 14px/1.6 "Microsoft Yahei";
+  background-color: #f5f5f5;
+}
+img {
+  border: 0 none;
+  display: block;
+}
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  color: #666;
+}
+#view {
+  padding-top: 64px;
+}
+.clear:after {
+  content: '';
+  height: 0;
+  display: block;
+  clear: both;
+  overflow: hidden;
+}
+.clear {
+  zoom: 1;
+}
+.inner {
+  width: 1000px;
+  margin: 0 auto;
+}
+.hd {
+  position: fixed;
+  z-index: 1000;
+  width: 100%;
+  height: 64px;
+  background: url(app/images/hd_bg.jpg) 0 0 repeat-x;
+}
+.hd .logo {
+  float: left;
+  width: 111px;
+  height: 42px;
+  background: url(app/images/logo.png) no-repeat;
+  margin-top: 11px;
+}
+.hd .nav {
+  float: right;
+  list-style-type: none;
+}
+.hd .nav li {
+  float: left;
+  margin-left: 5px;
+}
+.hd .nav li:hover a,
+.hd .nav li.active a {
+  height: 62px;
+  border-bottom: 2px solid #ff0000;
+  color: #fff;
+}
+.hd .nav a {
+  float: left;
+  padding: 0 10px;
+  line-height: 64px;
+  color: #b7b7b7;
+  text-decoration: none;
+}
+.footer1 {
+  width: 70%;
+  margin: 0 auto;
+  margin-bottom: 20px;
+  background-color: #eee;
+  position: relative;
+  padding: 0 1%;
+}
+.footer1 .of1 {
+  padding: 20px 0;
+}
+.footer1 .of1 li {
+  cursor: pointer;
+  height: 36px;
+  padding: 0px 0 0 40px;
+  float: left;
+  margin-right: 20px;
+}
+.footer1 .of1 li a {
+  font-size: 13px;
+  color: #333;
+  line-height: 18px;
+  display: inline-block;
+}
+.footer1 .of1 li.one {
+  background: -5px -1059px url(app/images/smoll_pic.png) no-repeat;
+}
+.footer1 .of1 li.two {
+  background: -5px -997px url(app/images/smoll_pic.png) no-repeat;
+}
+.footer1 .of1 li.three {
+  background: -5px -941px url(app/images/smoll_pic.png) no-repeat;
+}
+.footer1 p {
+  width: 70%;
+  height: 36px;
+  line-height: 18px;
+  font-size: 12px;
+  color: #787878;
+}
+.footer1 p.one {
+  padding-top: 10px;
+}
+.footer1 p.two {
+  padding-top: 5px;
+}
+.footer1 .img-icon {
+  cursor: pointer;
+  width: 148px;
+  height: 91px;
+  overflow: hidden;
+  position: absolute;
+  right: 1px;
+  bottom: 0px;
+  background: url(app/images/smoll_pic.png) -765px -956px no-repeat;
+}
+.footer2 {
+  position: relative;
+  height: 50px;
+  background-color: #2e2e2e;
+}
+.footer2 .f-a {
+  background: url(app/images/smoll_pic.png) -765px -975px no-repeat;
+  position: absolute;
+  bottom: 0px;
+  left: 10%;
+  display: block;
+  width: 230px;
+  height: 69px;
+}
+.footer2 .f-a p {
+  width: 100px;
+  position: absolute;
+  top: 32%;
+  right: 0;
+}
+.footer2 .f-a p span {
+  color: #d1313b;
+  font-size: 16px;
+  font-weight: bold;
+}
+.footer2 .f-a p b {
+  font-size: 14px;
+  color: #FFF;
+}
+.footer2 .f-rig {
+  position: absolute;
+  right: 10%;
+  bottom: 0;
+}
+.footer2 .f-rig .f-txt {
+  float: left;
+  padding: 3px 10px 3px 20px;
+  text-align: right;
+  background: url(app/images/f-b.png) left center no-repeat;
+}
+.footer2 .f-rig .f-txt p {
+  font-size: 16px;
+  color: #fff;
+  font-weight: bold;
+}
+.footer2 .f-rig .f-txt b {
+  color: #999;
+}
+.footer2 .f-rig .f-txt a {
+  font-size: 11px;
+  color: #d72424;
+  text-decoration: none;
+}
+.footer2 .f-rig .f-txt:hover p {
+  color: orange;
+}
+.footer2 .f-rig .f-txt:hover b {
+  color: #fff;
+}
+.footer2 .f-rig .f-txt:hover a {
+  color: #999;
+}
+.top {
+  height: 411px;
+  background: url(app/images/news.jpg) center;
+}
+.content {
+  width: 72%;
+  margin: 0 auto;
+}
+.content .left {
+  width: 25%;
+  float: left;
+}
+.content .left img {
+  width: 100%;
+}
+.content .left img:hover {
+  box-shadow: 0 0 10px red;
+}
+.content .left h3 {
+  margin: 20px 0;
+  padding-bottom: 15px;
+  border-bottom: 1px dashed #ddd;
+}
+.content .left h3 a {
+  font-size: 20px;
+  color: #dc1e1e;
+  font-size: 24px;
+}
+.content .left h3 a b {
+  color: #666;
+}
+.content .left h3 p {
+  color: #666;
+}
+.content .left h4 {
+  color: #d8201e;
+  padding-bottom: 10px;
+  font-size: 18px;
+}
+.content .left h4 a {
+  color: #d8201e;
+}
+.content .left h4 b,
+.content .left h4 p {
+  font-size: 18px;
+  color: #666;
+}
+.content .left ul {
+  margin-bottom: 20px;
+}
+.content .left ul li {
+  border-bottom: 1px dashed #ddd;
+  padding: 6px 0;
+}
+.content .left ul li p {
+  margin-top: 10px;
+  text-align: center;
+}
+.content .left .hot {
+  cursor: pointer;
+}
+.content .left .hot .con1 {
+  margin-bottom: 10px;
+}
+.content .left .hot .con1 .img {
+  float: left;
+  margin-right: 15px;
+  width: 100px;
+}
+.content .left .hot .con1 p {
+  padding: 20px;
+  color: #ff0000;
+}
+.content .left .hot .con2 {
+  margin-bottom: 20px;
+}
+.content .left .hot .con2 a {
+  border-bottom: 1px dashed #ddd;
+  line-height: 30px;
+  font-size: 12px;
+  color: #666;
+  font-family: "微软雅黑";
+  display: block;
+}
+.content .left .hot .con2 a:hover {
+  color: #5F7AF6;
+}
+.content .right {
+  float: right;
+  width: 70%;
+  padding: 15px 0;
+}
+.content .right .txt h6 {
+  color: #333;
+  padding: 5px;
+  font-size: 20px;
+  background: #E3E3E3;
+  margin-left: 12px;
+  border-left: solid #CCC 1px;
+}
+.content .right .txt h6 b {
+  color: #dc1e1e;
+}
+.content .right .txt p {
+  font-size: 13px;
+  line-height: 27px;
+  color: #999999;
+}
+.content .right .li-box li {
+  padding: 3px 0 3px 12px;
+  overflow: hidden;
+  position: relative;
+}
+.content .right .li-box li a {
+  display: block;
+  width: 133px;
+  height: 100px;
+  float: left;
+  text-align: center;
+  padding: 16px 0 0 11px;
+}
+.content .right .li-box li a .Ig2 {
+  width: 121px;
+  height: 88px;
+  overflow: hidden;
+  padding: 5px;
+  background: #FFF;
+  border: #999 solid 1px;
+}
+.content .right .li-box li img {
+  float: left;
+}
+.content .right .li-box li .txt-box {
+  width: 60%;
+  padding: 20px 0 0 18px;
+  float: left;
+}
+.content .right .li-box li .txt-box h2 {
+  font-size: 18px;
+  font-weight: normal;
+  color: #535353;
+}
+.content .right .li-box li .txt-box p {
+  font-size: 12px;
+  line-height: 20px;
+  color: #666666;
+}
+.content .right .li-box li .txt-box p.two {
+  cursor: pointer;
+  color: #ff0000;
+}
+.content .right .li-box li .txt-b {
+  font-size: 12px;
+  line-height: 20px;
+  color: #F79999;
+  display: none;
+}
